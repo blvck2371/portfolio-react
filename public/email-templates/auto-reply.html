@@ -1,0 +1,46 @@
+<!--
+  Template d'auto-réponse stylisé pour EmailJS
+  Variables : {{name}}, {{title}}, {{message}}
+  Personnaliser : [Website Link], [Company Name]
+  Logo : remplacer "cid:logo.png" par l'URL de ton logo si tu n'utilises pas de pièce jointe
+-->
+<div style="font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif; font-size: 16px; line-height: 1.65; color: #1e293b; max-width: 560px; margin: 0 auto; background: #ffffff;">
+  <!-- Bandeau supérieur (accent couleur) -->
+  <div style="height: 4px; background: linear-gradient(90deg, #6366f1 0%, #8b5cf6 100%); border-radius: 2px 2px 0 0;"></div>
+
+  <!-- En-tête avec logo -->
+  <div style="padding: 28px 32px 24px; border-bottom: 1px solid #e2e8f0;">
+    <a style="text-decoration: none; outline: none;" href="[Website Link]" target="_blank" rel="noopener">
+      <img style="height: 36px; width: auto; vertical-align: middle; display: block;" height="36" src="cid:logo.png" alt="Logo" />
+    </a>
+  </div>
+
+  <!-- Corps du message -->
+  <div style="padding: 32px;">
+    <p style="margin: 0 0 20px 0; font-size: 18px; color: #0f172a; font-weight: 600;">
+      Bonjour {{name}},
+    </p>
+    <p style="margin: 0 0 20px 0; color: #475569;">
+      Merci de nous avoir contactés. Nous avons bien reçu votre demande&nbsp;: <strong style="color: #334155;">«&nbsp;{{title}}&nbsp;»</strong>, et nous ferons notre maximum pour y répondre sous 3 jours ouvrés.
+    </p>
+    <div style="margin: 24px 0; padding: 20px; background: #f1f5f9; border-radius: 10px; border: 1px solid #e2e8f0;">
+      <p style="margin: 0 0 8px 0; font-size: 13px; color: #64748b; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600;">Votre message</p>
+      <p style="margin: 0; color: #1e293b; white-space: pre-wrap; font-size: 15px;">{{message}}</p>
+    </div>
+
+    <!-- Signature -->
+    <div style="margin-top: 32px; padding-top: 24px; border-top: 1px solid #e2e8f0;">
+      <p style="margin: 0; color: #475569;">
+        Bien à vous,<br />
+        <strong style="color: #0f172a; font-size: 16px;">L'équipe [Company Name]</strong>
+      </p>
+    </div>
+  </div>
+
+  <!-- Pied de page -->
+  <div style="padding: 20px 32px 28px; background: #f8fafc; border-radius: 0 0 8px 8px;">
+    <p style="margin: 0; font-size: 12px; color: #94a3b8;">
+      Cet email a été envoyé automatiquement suite à l'utilisation du formulaire de contact sur notre site.
+    </p>
+  </div>
+</div>
